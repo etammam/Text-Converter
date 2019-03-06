@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace String_Cases
 {
-    public partial class Form1 : Form
+    public partial class CaseMessage : Form
     {
-        public Form1()
+        public CaseMessage()
         {
             InitializeComponent();
+        }
+
+        private void materialFlatButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
